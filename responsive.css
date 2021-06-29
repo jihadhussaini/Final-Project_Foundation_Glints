@@ -1,0 +1,87 @@
+@media (max-width: 1000px) {
+    .lesson {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .top-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .top-wrapper h2 {
+        font-size: 20px;
+    }
+
+    .subsection-wrapper h1 {
+        font-size: 32px;
+    }
+
+    .subsection-wrapper h2 {
+        font-size: 20px;
+    }
+
+    .subsection-wrapper h3 {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 670px) {
+    .lesson {
+        width: 100%;
+    }
+
+    footer {
+        text-align: center;
+    }
+    
+    .top-wrapper {
+        text-align: left;
+    }
+    
+    .subsection-wrapper {
+        text-align: left;
+    }
+
+    .header-right {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+
+    .top-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .top-wrapper h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .top-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .subsection-wrapper h1 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+
+    .subsection-wrapper h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+
+    .subsection-wrapper h3 {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .subsection-wrapper p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+}
