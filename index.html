@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Ve-Chain Sol</title>
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
@@ -14,16 +14,15 @@
         <div class="header-left">
           <img class="logo" src="latihan3.png">
         </div>
-        <span class="fa fa-bars menu-icon"></span>
-        <!-- Write your code here -->
-        <div class="header-right">
-        <ul>
-          <li><a href="#" class="header-right">Log in</a></li>
-          <li><a href="#" class="header-right">Gallery</a></li>
-          <li><a href="#" class="header-right">Client</a></li>
-          <li><a href="#" class="header-right">About</a></li>
-          <li><a href="#" class="header-right">Home</a></li>
+        <div id="myLinks">
+          <a href="#contactus">Contact Us</a>
+          <a href="#oursevices">Our Services</a>
+          <a href="#about">About</a>
+          <a href="#home">Home</a> 
         </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </header>
     <div class="top-wrapper">
@@ -101,5 +100,15 @@
         <h2>&copy; 2021</h2>
       </div>
     </footer>
+    <script>
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
   </body>
 </html>

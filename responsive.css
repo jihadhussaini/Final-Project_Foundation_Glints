@@ -1,4 +1,4 @@
-@media (max-width: 1000px) {
+@media (max-width: 1000px) {    
     .lesson {
         width: 50%;
         margin-bottom: 10px;
@@ -26,6 +26,13 @@
 }
 
 @media (max-width: 670px) {
+    .container-header {
+        width: 100%;
+    }
+    
+    .header-left {
+        width: 100%;
+    }
     .lesson {
         width: 100%;
     }
@@ -35,7 +42,7 @@
     }
     
     .top-wrapper {
-        text-align: left;
+        text-align: center;
     }
     
     .subsection-wrapper {
@@ -83,5 +90,9 @@
     .subsection-wrapper p {
         font-size: 14px;
         line-height: 20px;
+    }
+
+    input, textarea {
+        width: 100%;
     }
 }
