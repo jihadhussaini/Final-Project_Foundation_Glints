@@ -13,14 +13,14 @@
       <nav>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn">
-          <i class="fas fa-bars"></i>
+          <i class="fa fa-bars"></i>
         </label>
         <img class="logo" src="latihan3.png">
         <ul>
           <li><a class="active" href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Our Services</a></li>
-          <li><a href="#">Contact Us</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#our-services">Our Services</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
         </ul>
       </nav>
     </header>
@@ -31,7 +31,7 @@
         <p>Build Your Company's SCM Strategy With Us</p>
       </div>
     </div>
-    <div class="subsection-wrapper">
+    <div class="subsection-wrapper" id="about">
       <div class="container-sub">
         <h1>About Ve-Chain Sol.</h1>
         <p>We are A Supply Chain Management Consultant established in Jakarta on January 1996. With 25 years of experience in helping many companies around the world for finding solution and improving system, we can guarantee that our services are excellent for solving every SCM-related challenge. we work alongside our clients as one team with a shared ambition to achieve extraordinary results, outperform the competition and redefine industries. We complement our tailored, integrated expertise with a vibrant ecosystem of digital innovators to deliver better, faster and more enduring outcomes</p>
@@ -44,7 +44,7 @@
         <p>We have a deep intellectual honesty, and the candor to tell it like it is in straightforward language. We remain open to the possibility that current beliefs could be wrong.</p>
       </div>      
     </div>
-    <div class="lesson-wrapper">
+    <div class="lesson-wrapper" id="our-services">
       <div class="container">
         <div class="heading">
           <h2>Choose Our Consulting Services</h2>
@@ -82,7 +82,7 @@
         </div>
       </div>
     </div>
-    <div class="contact-form">
+    <div class="contact-form" id="contact-us">
       <h3 class="section-item">Contact Us</h3>
       <p>Email (Required)</p>
       <input>
@@ -97,17 +97,16 @@
         <h1 class="text-footer">Ve-Chain Sol.</h1>
         <p class="text-footer">A Solution for Sustainable Supply Chain Management</p>
         <h2>&copy; 2021</h2>
+        <button class="dark" onclick="darkMode()">Dark Mode</button>
       </div>
     </footer>
     <script>
-    function myFunction() {
-      var x = document.getElementById("myLinks");
-      if (x.style.display === "block") {
-        x.style.display = "none";
-      } else {
-        x.style.display = "block";
-      }
-    }
+    function darkMode() {
+      var element = document.getElementById("our-services");
+      element.classList.toggle("dark-mode");
+      var element2 = document.getElementById("contact-us");
+      element2.classList.toggle("dark-mode");
+    };
     </script>
   </body>
 </html>

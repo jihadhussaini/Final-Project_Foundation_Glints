@@ -139,7 +139,7 @@ a {
 .heading {
     padding-top: 60px;
     padding-bottom: 30px;
-    color: #5f5d60;
+    color: black;
 }
 
 .heading h2{
@@ -235,4 +235,23 @@ footer {
 
 .text-footer {
     padding-left: 30px;
+}
+
+button {
+    height: 36px;
+    width: 100px;
+    color: black;
+    background-color: #C7F4EF;
+    border-radius: 10px;
+    font-weight: 5px;
+    font-size: 18px;
+    flex: auto;
+    margin: 0 auto;
+    display: flex;
+    padding: 3px 3px;
+}
+
+.dark-mode {
+  background-color: #0D616A;
+  color: white;
 }
