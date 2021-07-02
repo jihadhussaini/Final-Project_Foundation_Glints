@@ -126,6 +126,7 @@ a {
 .container-sub {
     width: 100%;
     padding: 0 60px;
+    line-height: 35px;
     text-align: center;
 }
 
@@ -179,8 +180,9 @@ a {
     font-size: 36px;
     font-weight: bold;
     border-bottom: 1px solid #333;
-    padding: 20px 25px;
+    padding: 15px 10px;
     margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .contact-form {
